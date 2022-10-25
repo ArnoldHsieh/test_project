@@ -1,0 +1,26 @@
+ PLCAP_SocketError_0382
+
+{Text = {"跨執行緒作業無效: 存取控制項 'rtfLog' 時所使用的執行緒與建立控制項的執行緒不同。"}}
+
+code1
+      code2
+      code3   
+		P1	P2	AL	EQ
+Get		380 390	310	1310	
+PUT		180	190	110	1110
+		P3	P4  AL2 EQ2
+		400 410 320	
+		
+		001 SOB 0001 關
+  		        0010 開 
+				
+RFID
+seting barcode or RFID
+[process] 
+      code1
+      code2
+      code3   
+	B2 code1
+	B2 code2
+	B2 code3
+	B2 code4
